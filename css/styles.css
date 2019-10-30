@@ -7,8 +7,9 @@ h1
     font-weight: bold;
 }
 
-#box
+.box
 {
+    padding-top: 15px;
     text-align: center;
     display: block;
 }
