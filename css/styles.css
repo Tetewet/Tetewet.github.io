@@ -21,4 +21,5 @@ h1
 table
 {
     text-align: center;
+    display: block;
 }
