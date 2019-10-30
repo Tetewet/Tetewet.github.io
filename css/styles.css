@@ -1,3 +1,14 @@
 body
 {
 }
+
+h1
+{
+    font-weight: bold;
+}
+
+box
+{
+    text-align: center;
+    display: block;
+}
