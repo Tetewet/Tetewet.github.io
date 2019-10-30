@@ -6,11 +6,12 @@ h1
 {
     font-size: 30px;
     font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 15px;
 }
 
 .box
 {
-    padding-top: 15px;
     text-align: center;
     display: block;
 }
