@@ -20,12 +20,8 @@ h1
 
 table
 {
-    text-align: center;
+    text-align: left;
     display: block;
-}
-
-tr
-{
-    text-align: center;
-    display: block;
+    position: center;
+    width: 400px;
 }
