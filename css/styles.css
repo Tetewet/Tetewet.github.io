@@ -18,10 +18,10 @@ h1
     display: block;
 }
 
-table
+form
 {
     text-align: left;
-    display: block;
+    display: inline-block;
     position: center;
     width: 400px;
 }
