@@ -6,6 +6,19 @@ h1
     padding-bottom: 15px;
 }
 
+h2
+{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+h3
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
 .box
 {
     text-align: center;
@@ -14,7 +27,7 @@ h1
 
 form
 {
-    text-align: left;
+    text-align: center;
     display: block;
     position: center;
     width: 940px;
@@ -23,10 +36,13 @@ form
 table
 {
     display: block;
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
     vertical-align: top;
-    column-count: 2;
+    text-align: center;
+    column-count: 4;
+    width: 80%;
 }
 
 body
@@ -36,3 +52,49 @@ body
     color: white;
     text-align: center;
 }
+
+
+td
+{
+    width: 300px;
+    height: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+tr
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.portfolio
+{
+    outline: double;
+    width: 300px;
+    height: 250px;
+}
+
+    .portfolio .text
+    {
+        position: center;
+        bottom: 30px;
+        width: 80%;
+        padding: 10% 10% 0 10%;
+        text-align: justify;
+        visibility: hidden;
+    }
+
+    .portfolio:hover
+    {
+        background-color: rgba(255, 106, 0, 0.8);
+        box-shadow: 0 0 5px #333333;
+        transition: 0.7s ease-in;
+        /*background-image: url(../img/monogame.gif);*/
+    }
+
+        .portfolio:hover .text
+        {
+            visibility: visible;
+        }
+
