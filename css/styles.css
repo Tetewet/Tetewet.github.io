@@ -122,7 +122,7 @@ tr {
     margin: 0 auto;
     font-size: 16px;
     padding: 8px 12px;
-    width: 99%;
+    width: 98%;
     /*padding: 10% 10% 10% 30%;*/
     text-align: justify;
     color: white;
@@ -202,7 +202,7 @@ img {
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 99%;
+    width: 97%;
 }
 
 /* The dots/bullets/indicators */
